@@ -1,0 +1,35 @@
+html,body{
+    padding:0;
+    margin:0;
+    overflow:none;
+    width:100%;
+    height:100%;   
+}
+
+body {
+/*THAY LINK DƯỚI THÀNH LINK ẢNH*/   background:url('https://cdn.discordapp.com/attachments/708720529322016828/1041859685520777326/99C14663-23D5-4107-A85A-159B2FCECC4D.jpg') no-repeat center center fixed;
+    font-family: 'Ubuntu', sans-serif;
+    background-position:center center;
+    background-size:  cover;
+    color: #121212;
+}
+.loader{
+    position:absolute;
+    top:80%;
+    margin:-240px;
+    left:45%;
+    width:480px;
+    height:480px;    
+}
+.loader h1{
+    position: absolute;
+    top:0px;
+    left:0px;
+    text-align: center;
+    width:100%;
+    top:0px;
+    line-height:420px;
+    font-size:24px;
+    color:rgba(0,0,128);
+    font-weight:100;
+}
